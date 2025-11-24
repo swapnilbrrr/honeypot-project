@@ -24,8 +24,9 @@ This project demonstrates your skills in Python, network security, log analysis,
 
 📂 Project Structure
 honeypot-project/
-│── README.md
-│── .gitignore
+│
+├── README.md
+├── .gitignore
 │
 ├── docker/
 │   ├── docker-compose.yml
@@ -55,12 +56,17 @@ honeypot-project/
 │
 ├── analysis/
 │   ├── raw/
+│   │   └── .gitkeep
 │   ├── enriched/
+│   │   └── .gitkeep
 │   └── reports/
+│       └── .gitkeep
 │
 ├── dashboards/
 │   ├── elk/
+│   │   └── .gitkeep
 │   └── grafana/
+│       └── .gitkeep
 │
 └── scripts/
     ├── start_all.sh
