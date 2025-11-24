@@ -1,4 +1,3 @@
-````markdown
 # 🛡️ Honeypot Security Project
 **Author:** Swapnil Katuwal  
 **Purpose:** Multi-layer cybersecurity honeypot for detection, analysis, and attacker behavior study.
@@ -79,5 +78,4 @@ honeypot-project/
 This honeypot is for **educational and research purposes only**.
 Running honeypots on public networks can expose you to malicious traffic — **deploy responsibly**.
 
-````
 
