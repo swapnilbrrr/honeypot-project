@@ -1,28 +1,26 @@
-Honeypot Security Project
+````markdown
+# 🛡️ Honeypot Security Project
+**Author:** Swapnil Katuwal  
+**Purpose:** Multi-layer cybersecurity honeypot for detection, analysis, and attacker behavior study.
 
-Author: Swapnil Katuwal
-Purpose: Multi‑layer cybersecurity honeypot for detection, analysis, and attacker behavior study.
+---
 
-📌 Overview
-
-This project is a multi‑stage honeypot environment designed to attract, detect, and log malicious activity.
+## 📌 Overview
+This project is a **multi-stage honeypot environment** designed to attract, detect, and log malicious activity.  
 It includes:
 
-Low‑interaction honeypot (simulated vulnerable service)
+- **Low-interaction honeypot** (simulated vulnerable service)  
+- **SSH honeypot** (fake shell login)  
+- **Web honeypot** (fake login portal)  
+- **Centralized log pipeline** for analysis  
+- **Dashboard integrations** (ELK, Grafana) planned  
+- **Network hardening configs** (iptables, fail2ban)  
 
-SSH honeypot (fake shell login)
+---
 
-Web honeypot (fake login portal for credential harvesting)
+## 📂 Project Structure
 
-Log pipeline + analysis folders
-
-Future dashboard integrations (ELK, Grafana)
-
-Network hardening configs (iptables, fail2ban)
-
-This project demonstrates your skills in Python, network security, log analysis, incident detection, and SOC tooling.
-
-📂 Project Structure
+```text
 honeypot-project/
 │
 ├── README.md
@@ -72,31 +70,14 @@ honeypot-project/
     ├── start_all.sh
     ├── stop_all.sh
     └── rotate_logs.sh
+````
 
-🚀 Current Features
+---
 
-✔ Low‑interaction honeypot
-✔ SSH credential harvesting honeypot
-✔ Web login decoy
-✔ Centralized log directories
-✔ Organized project structure
-✔ Ready for Dockerization
+## ⚠️ Disclaimer
 
-📅 Roadmap (Coming Soon)
+This honeypot is for **educational and research purposes only**.
+Running honeypots on public networks can expose you to malicious traffic — **deploy responsibly**.
 
-Docker deployment
+````
 
-ELK dashboard
-
-Grafana visualization
-
-Threat enrichment (GeoIP, ASN lookup)
-
-Automated log rotation
-
-Log correlation scripts
-
-⚠️ Disclaimer
-
-This honeypot is for educational and research purposes only.
-Running honeypots on a public network can expose you to malicious traffic — deploy responsibly.
