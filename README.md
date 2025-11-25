@@ -8,7 +8,7 @@
 This project is a **multi-stage honeypot environment** designed to attract, detect, and log malicious activity.  
 It includes:
 
-- **Low-interaction honeypot** (simulated vulnerable service)  
+- **Low-interaction honeypot** (simulated vulnerable service) ✅ Implemented: logs TCP connections with SOC-style timestamps  
 - **SSH honeypot** (fake shell login)  
 - **Web honeypot** (fake login portal)  
 - **Centralized log pipeline** for analysis  
